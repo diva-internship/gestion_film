@@ -1,0 +1,32 @@
+body{ 
+    display: flex; 
+     position: absolute;
+    justify-content: center;
+    text-align: center; 
+    align-items: center; 
+    width: 100%;
+  }
+  h1{
+      text-align: center;font-size:40px
+  }
+  
+  .spells-continer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      background-color: rgb(130, 129, 129);
+      font-size: 18px; border-radius: 5px;
+      padding: 20px;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .spells{ 
+      align-items: center;
+      justify-content: center;
+      text-align: justify;
+    }
+    
+    a:hover{
+      background-color: rgb(245, 240, 240);
+      color: black;
+     }

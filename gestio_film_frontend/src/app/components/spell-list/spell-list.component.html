@@ -1,0 +1,8 @@
+<h1>Spell List</h1>
+<img [src]="">
+<div class="spells-continer">
+
+    <div class="spells" *ngFor="let spell of spells">
+        *<a (click)=" onSelect(spell)">{{ spell.name }}</a>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+body{ 
+    display: flex; 
+     position: static;
+    justify-content: center;
+    text-align: center; 
+    align-items: center; 
+    width: 100%;
+}
+.spell-container { 
+    padding: 20px;
+     width: 600px; 
+    margin: 0 auto;
+    position: static;
+}
+ h1 {
+    font-size: 24px;
+    color: #333;
+    justify-content: center; width: 600px; 
+    text-align: center; 
+ }
+
+table {
+    width: 600px; 
+    margin-bottom: 20px;
+    justify-content: center;align-items:start;
+}
+
+th {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    background-color: #696a69;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
